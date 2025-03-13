@@ -1,0 +1,24 @@
+{
+    "$origin": "emi.ac.ma.",
+    "$ttl": 3600,
+    "soa": {
+        "mname": "ns1.emi.ac.ma.",
+        "rname": "admin.emi.ac.ma.",
+        "serial": "{time}",
+        "refresh": 3600,
+        "retry": 600,
+        "expire": 604800,
+        "minimum": 86400
+    },
+    "ns": [
+        { "host": "ns1.emi.ac.ma." },
+        { "host": "ns2.emi.ac.ma." }
+    ],
+    "a": [
+        { "name": "@", "ttl": 400, "value": "255.255.255.255" },
+        { "name": "@", "ttl": 400, "value": "127.0.0.1" },
+        { "name": "@", "ttl": 400, "value": "127.0.0.1" },
+        { "name": "@", "ttl": 400, "value": "127.0.0.1" },
+        { "name": "@", "ttl": 400, "value": "10.10.10.10" }
+    ]
+}
